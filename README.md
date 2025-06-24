@@ -1,6 +1,5 @@
 # FinTech Dashboard Supreme - A comprehensive financial dashboard with real-time analytics
 
-# FinTech Dashboard Supreme - A comprehensive financial dashboard with real-time analytics
 
 ## For Candidates
 
