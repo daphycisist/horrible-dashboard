@@ -52,11 +52,11 @@ async function runLighthouse() {
   console.log(`SEO: ${seoScore}/100`);
   console.log("========================\n");
 
-  if (performanceScore >= 85) {
-    console.log("✅ Performance target achieved! (85+ required)");
+  if (performanceScore >= 90) {
+    console.log("✅ Performance target achieved! (90+ required)");
   } else {
     console.log(
-      `❌ Performance target not met. Current: ${performanceScore}, Required: 85+`
+      `❌ Performance target not met. Current: ${performanceScore}, Required: 90+`
     );
   }
 

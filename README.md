@@ -46,7 +46,7 @@ Before making any changes, you need to establish a baseline performance score:
 
 Your goal is to optimize the application to achieve:
 
-- **Lighthouse Performance Score: 85-100** (measured on production build)
+- **Lighthouse Performance Score: 90+** (measured on production build)
 - Maintain all existing functionality
 - Ensure the application remains responsive and user-friendly
 
@@ -145,7 +145,7 @@ yarn lighthouse
 1. **Final Performance Check**
 
    - ⚠️ **CRITICAL**: Run final Lighthouse audit on production build only
-   - Ensure performance score is between 85-100
+   - Ensure performance score is 90+
    - Screenshot your final Lighthouse results
 
 2. **Code Quality**
@@ -169,7 +169,7 @@ yarn lighthouse
 
 You will be evaluated on:
 
-- **Performance Score** (Primary): Achieving 85-100 Lighthouse performance score on production build
+- **Performance Score** (Primary): Achieving 90+ Lighthouse performance score on production build
 - **Code Quality**: Clean, maintainable, and well-structured code
 - **Optimization Approach**: Effectiveness of chosen optimization strategies
 - **Functionality**: Maintaining all original features and usability
@@ -180,12 +180,48 @@ You will be evaluated on:
 - **Testing**: Writing meaningful tests or improving existing test coverage for optimized components
 - **Documentation**: Clear documentation of optimization strategies and their impact
 
-### 10. Resources
+### 10. Performance Focus Areas
+
+As you analyze the application, consider these optimization categories:
+
+#### Loading Performance
+
+- Bundle size analysis and reduction
+- Code splitting and lazy loading
+- Resource compression and optimization
+
+#### Runtime Performance
+
+- Component rendering efficiency
+- State management optimization
+- Memory usage patterns
+
+#### Network Efficiency
+
+- API request optimization
+- Caching strategies
+- Resource loading prioritization
+
+#### User Experience
+
+- Responsive design maintenance
+- Smooth interactions and animations
+- Accessibility considerations
+
+### 11. Technical Notes
+
+- The `yarn lighthouse` script audits `http://localhost:8000`
+- Make sure only one application is running on port 8000 during testing
+- Both development and production testing use the same URL for consistency
+- Focus on production build performance for final evaluation
+
+### 12. Resources
 
 - [Lighthouse Documentation](https://developers.google.com/web/tools/lighthouse)
 - [Web.dev Performance](https://web.dev/performance/)
 - [React Documentation](https://react.dev/)
+- [Performance Optimization Guide](https://web.dev/react/)
 
 ---
 
-**Good luck with your optimization work! Use your expertise to identify and resolve performance bottlenecks while maintaining code quality and functionality.**
+**Good luck with your optimization work! This assessment challenges you to demonstrate advanced React performance optimization skills. Use systematic analysis to identify bottlenecks and implement evidence-based solutions while maintaining code quality and functionality.**
